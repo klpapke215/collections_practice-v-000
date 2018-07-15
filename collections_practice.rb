@@ -44,10 +44,10 @@ end
 def add_s(array)
   array.collect do |word|
   if word != array[2]
-    puts "#{word}s"
+    puts "#{word} + s"
   else
     word
   end
 end
-array 
+array
 end
