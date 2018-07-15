@@ -49,5 +49,5 @@ def add_s(array)
       word
     end
   end
-  array 
+  array
 end
