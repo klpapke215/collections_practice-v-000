@@ -38,13 +38,15 @@ def sum_array(array)
   array.each do |a|
     sum += a
   end
-  sum 
+  sum
 end
 
 def add_s(array)
   array.collect do |word|
-  puts "#{word}s"
+  if word != array[2]
+    puts "#{word}s"
+  else
+    word
+  end
+end 
 end
-
-
-  
